@@ -5,4 +5,4 @@ change 1
 
 To learn git - http://www.ndpsoftware.com/git-cheatsheet.html#loc=stash;
 
-change 2
+Git cheat sheet - https://github.github.com/training-kit/downloads/github-git-cheat-sheet/

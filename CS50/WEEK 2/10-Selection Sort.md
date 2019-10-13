@@ -10,7 +10,7 @@ In selection sort, the idea of the algorithm is to find the smallest list.
 
 #### Pseudocode:
 
-- Repeat until no unsorted elements remaina:
+- Repeat until no unsorted elements remains:
     - Search the unsorted part  of the data to find the smallest value.
     - swap the smallest found value with the first element of the unsorted part.
 

@@ -285,6 +285,7 @@ int main(int argc, string argv[])
     printf("ciphertext: ");
     for (int i = 0; i < text_length; i++)
     {
+        // If it is uppercase 
         if (text[i] >= 65 && text[i] <= 90)
         {
             num = text[i] + (key % 26);
@@ -296,6 +297,8 @@ int main(int argc, string argv[])
             text[i] = num;
             printf("%c", text[i]);
         }
+        
+        // If it is lowercase 
         else if (text[i] >= 97 && text[i] <= 122)
         {
             num = text[i] + (key % 26);

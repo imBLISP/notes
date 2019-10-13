@@ -2,12 +2,12 @@
 
 ---
 
-####Asemptotic notation:
+#### Asemptotic notation:
 
 > $O$ : Worst case runtime
 > $\Omega$ : Best case runtime
 
-####Algorithms:
+#### Algorithms:
 
 | Algorithm name | Basic concept                                                | $O$       | $\Omega $  |
 | -------------- | ------------------------------------------------------------ | --------- | ---------- |

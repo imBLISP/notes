@@ -16,12 +16,12 @@
 
 - static-ly allocated memory(ex `int x = 10;`) comes from stack and dynamically allocated memory comes from heap.
 
-    | Text                                                         |
-    | :----------------------------------------------------------- |
-    | initialized data                                             |
-    | uninitialized data                                           |
+    |                             Text                             |
+    | :----------------------------------------------------------: |
+    |                       initialized data                       |
+    |                      uninitialized data                      |
     | heap<br />                                                                                     \|<br />                                                                                     \|<br />                                                                                     \|<br />                                                                                     V<br /><br /><br />                                                                                     ^<br />                                                                                     \|<br />                                                                                     \|<br />                                                                                     \|<br />                                                                                  stack |
-    | Environment variables                                        |
+    |                    Environment variables                     |
 
 - We get this dynamically-allocated memory by making a call to the C standard library function `malloc()`, passing as its parameter the number of bytes requested.
 

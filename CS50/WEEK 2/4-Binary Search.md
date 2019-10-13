@@ -12,7 +12,7 @@ Best case runtime: $\Omega (1)$
 
 - Calculate the middle point of the current (sub)array.
 - if the target is at the middle, stop.
-- Otherwise, if the target is less than what's at the middle, repeat, changing the end point to be just to the lest of the middle.
+- Otherwise, if the target is less than what's at the middle, repeat, changing the end point to be just to the left of the middle.
 - otherwise, if the target is greater than what's at the middle, repeat, changing the start point to be      just to the right of the middle.
 
 #### Properties:
